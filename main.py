@@ -1,4 +1,4 @@
-# !pip install gradio requests pandas scikit-learn numpy
+!pip install gradio requests pandas scikit-learn numpy
 
 import gradio as gr
 import requests
