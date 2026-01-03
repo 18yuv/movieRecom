@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os
 
 # API KEY
-TMDB_API_KEY = "91ea23925f32a42abba3e0512c47b3d1"
+TMDB_API_KEY = "API KEY"
 
 
 # GENRE MAPPING
