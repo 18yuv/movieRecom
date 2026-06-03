@@ -1,4 +1,4 @@
-!pip install gradio requests pandas scikit-learn numpy
+# !pip install gradio requests pandas scikit-learn numpy
 
 import gradio as gr
 import requests
@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os
 
 # API KEY
-TMDB_API_KEY = "API KEY"
+TMDB_API_KEY = os.getenv("MOVIE_API")
 
 
 # GENRE MAPPING
